@@ -11,7 +11,7 @@ Forked from the [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter
 
 ## Install
 
-Use the Gatsby CLI to create a new site, specifying the blog starter.
+Use the Gatsby CLI to create a new events list from the starter.
 
 ~~~~
 gatsby new my-events-list https://github.com/johnpolacek/gatsby-starter-events-list
