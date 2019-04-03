@@ -1,6 +1,6 @@
 # Gatsby Events List Starter
 
-Forked from the [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog).
+Forked from the [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog). Demo at [gatsby-starter-events-list.netlify.com/](https://gatsby-starter-events-list.netlify.com/)
 
 ## Features
 
