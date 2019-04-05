@@ -47,7 +47,7 @@ const Event = props => (
     <P fontSize={0} mb={2} lineHeight="1.2">
       {props.locationName}
       <br />
-      {props.locationAddress}
+      {props.locationStreet}
       <br />
       {props.locationCity}, {props.locationState}
       <br />
@@ -75,7 +75,7 @@ Event.propTypes = {
   endDate: PropTypes.string,
   endTime: PropTypes.string,
   locationName: PropTypes.string.isRequired,
-  locationAddress: PropTypes.string.isRequired,
+  locationStreet: PropTypes.string.isRequired,
   locationCity: PropTypes.string.isRequired,
   locationState: PropTypes.string.isRequired,
   cost: PropTypes.string.isRequired,

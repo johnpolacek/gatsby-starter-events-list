@@ -50,7 +50,7 @@ class Index extends React.Component {
                     endDate: node.frontmatter.endDate,
                     endTime: node.frontmatter.endTime,
                     locationName: node.frontmatter.locationName,
-                    locationAddress: node.frontmatter.locationAddress,
+                    locationStreet: node.frontmatter.locationStreet,
                     locationCity: node.frontmatter.locationCity,
                     locationState: node.frontmatter.locationState,
                     cost: node.frontmatter.cost,
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
             endDate(formatString: "MMMM DD, YYYY")
             endTime
             locationName
-            locationAddress
+            locationStreet
             locationCity
             locationState
             cost
