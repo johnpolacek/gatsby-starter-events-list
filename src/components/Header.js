@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import { Header, H1, H2 } from "styled-system-html"
+import React from 'react'
+import { Link } from 'gatsby'
+import { Header, H1, H2 } from 'styled-system-html'
 
 export default props => (
   <>
-    {props.path === "/" ? (
+    {props.path === '/' ? (
       <Header textAlign="center" pb={4}>
         <H1 pb={2} mb={2}>
           {props.title}
