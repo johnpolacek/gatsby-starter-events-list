@@ -1,16 +1,16 @@
 ---
 title: Two Day Event
-date: "2019-03-10T22:41:32.169Z"
-startDate: "2019-03-23"
+date: "2029-03-10T22:41:32.169Z"
+startDate: "2029-03-23"
 startTime: "9:00"
-endDate: "2019-03-24"
+endDate: "2029-03-24"
 endTime: "19:00"
 locationName: Somewhere
 locationStreet: 123 E Grand
 locationCity: Chicago
 locationState: IL
 cost: FREE
-eventUrl: http://officeipsum.com/
+eventUrl: http://officeipsum.com
 
 ---
 
