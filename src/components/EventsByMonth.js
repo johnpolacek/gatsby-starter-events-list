@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import MonthHeader from '../components/MonthHeader'
 import Event from '../components/Event'
-import { Div } from 'styled-system-html'
+import Wrapper from '../components/Wrapper'
 
 const EventsByMonth = props => {
   return Object.keys(props.eventsByMonth).map(month => {
     return (
-      <Div key={month} pb={4}>
+      <Wrapper key={month}>
         <MonthHeader month={month} />
         {props.eventsByMonth[month].map(({ node }) => (
           <Event
@@ -28,7 +28,7 @@ const EventsByMonth = props => {
             }}
           />
         ))}
-      </Div>
+      </Wrapper>
     )
   })
 }
