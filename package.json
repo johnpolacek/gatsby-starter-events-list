@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-events-list",
   "description": "A Gatsby starter for creating a calendar list of events",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "John Polacek",
   "bugs": {
     "url": "https://github.com/johnpolacek/gatsby-starter-events-list/issues"
