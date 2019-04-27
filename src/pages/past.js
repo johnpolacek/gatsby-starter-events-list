@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import EventsByMonth from '../components/EventsByMonth'
 import LinkButton from '../components/LinkButton'
-import { Div } from 'styled-system-html'
+import { Div, H2 } from 'styled-system-html'
 
 
 class Past extends React.Component {
@@ -40,14 +40,15 @@ class Past extends React.Component {
           title="Events"
           keywords={[`events`, `calendar`, `gatsby`, `javascript`, `react`]}
         />
-        <EventsByMonth eventsByMonth={eventsByMonth} />
         {currEvents < events && (
-          <Div textAlign="center" pb={4} mb={3}>
+          <Div textAlign="center" pb={5}>
+            <H2 pb={4} fontSize={5} fontWeight="normal" color="base">Past Events</H2>
             <Link to={`/`}>
-              <LinkButton>VIEW CURRENT EVENTS »</LinkButton>
+              <LinkButton fontWeight={1}>VIEW CURRENT EVENTS</LinkButton>
             </Link>
           </Div>
         )}
+        <EventsByMonth eventsByMonth={eventsByMonth} />
       </Layout>
     )
   }

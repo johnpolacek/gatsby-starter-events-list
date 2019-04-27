@@ -43,7 +43,7 @@ class Index extends React.Component {
         {currEvents < events && (
           <Div textAlign="center" pb={4} mb={3}>
             <Link to={`/past`}>
-              <LinkButton>« VIEW PAST EVENTS</LinkButton>
+              <LinkButton>VIEW PAST EVENTS</LinkButton>
             </Link>
           </Div>
         )}
